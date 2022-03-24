@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ 
+
+<head>
+
+    <title>ese
+
+    </title>
+
+</head>
+
+<style>
+
+    div{
+
+        height:200px;
+
+        width:200px;
+
+        border: 2px solid black;
+
+    }
+
+</style>
+
+<script>
+
+    function colore() {
+
+        setInterval(function () {
+
+            let r=Math.round(Math.random()*256);
+
+        let g=Math.round(Math.random()*256);
+
+        let b=Math.round(Math.random()*256);
+
+            document.getElementById('pera').style.backgroundColor = "rgb(" + r + ',' + g + ',' + b + ")";
+
+        }, 500);
+
+    }
+
+</script>
+
+ 
+
+<body onload="colore()">
+
+<div id="pera">
+
+ 
+
+</div>
+
+</body>
+
+ 
